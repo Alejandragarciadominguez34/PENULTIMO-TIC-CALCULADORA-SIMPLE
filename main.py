@@ -6,7 +6,10 @@ Variable2 =  int(input("Ingrese el segundo número: "))
 Cuenta = input("Ingrese la operación a realizar (+, -, *, /): ")
 
 # Operaciones las hacen los desarrolladores (maria, youssef y houda)
-
+if Cuenta == "+":
+    print(Variable1 + Variable2)
+elif Cuenta == "-":
+    print(Variable1 - Variable2)
 
 
 
