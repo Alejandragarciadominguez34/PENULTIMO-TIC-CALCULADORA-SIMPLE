@@ -12,7 +12,18 @@ elif Cuenta == "-":
     print(Variable1 - Variable2)
 
 
+else:
+    resultado=Variable1 / Variable2
 
+else:
+    resultado= "Error"
+
+    print("No válido")
+
+if resultado != "Error":
+    print(f"{Variable1} {Cuenta} {Variable2} = {resultado}")
+else:
+    print("Error en la operación")
 
 
 
