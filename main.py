@@ -5,13 +5,18 @@ Variable1 = int(input("Ingrese el primer número: "))
 Variable2 =  int(input("Ingrese el segundo número: "))
 Cuenta = input("Ingrese la operación a realizar (+, -, *, /): ")
 
-# Operaciones las hacen los desarrolladores (maria, youssef y alejandra)
+# Operaciones las hacen los desarrolladores (maria  y alejandra)
 if Cuenta == "+":
     print(Variable1 + Variable2)
 elif Cuenta == "-":
     print(Variable1 - Variable2)
-
-
+elif Cuenta == "*":
+    resultado= Variable1 * Variable2
+    elif Cuenta == "/":
+        if Variable2 == 0:
+            resultado= "Error"
+            print("No se puede dividir por cero")
+    
 else:
     resultado=Variable1 / Variable2
 
